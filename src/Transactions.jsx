@@ -52,7 +52,6 @@ function handleDelete(transac){
         ))}
     </tbody>
     </table>
-<h5>hey there</h5>
 
     <TransactionForm dataFromChild={dataFromChild}/>
     </>
