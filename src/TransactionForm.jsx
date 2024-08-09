@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 
-export default function TransactionForm({}) {
+export default function TransactionForm({dataFromChild}) {
 const[formData,setFormData]=useState({
     id:"",
     category:"",
